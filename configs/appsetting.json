@@ -1,0 +1,13 @@
+{
+  "Server":{
+    "Host":"localhost",
+    "Port":"5555"
+  },
+  "Dbconn": "root:123456@(localhost:3066)/dbname?charset=utf8mb4&parseTime=True&loc=Local",
+  "JwtAuth": {
+     "SecretKey": "jwtsecret",
+     "Issuer": "shayun",
+     "Audience": "bach",
+     "ExpireHour": "1h"
+  }
+}

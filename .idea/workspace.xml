@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b135e9f0-6cc9-45d1-9654-0cb8d05c13ff" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="awesomeProject" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1WEhkDnQDziWl7nTWDIel3Sjn7N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Go" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\go\src\go-project\utils\jwt" />
+      <recent name="D:\code\go\src\go-project\config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-project" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-project" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-project" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="go-project" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="go-project" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build go-project" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585929391530">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="96" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1585929391530" />
+    <state x="443" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585902305894">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="443" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1585902305894" />
+    <state x="664" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585736800324" />
+    <state x="681" y="107" key="#xdebugger.evaluate" timestamp="1586085800243">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="681" y="107" key="#xdebugger.evaluate/0.0.1280.689@0.0.1280.689" timestamp="1586085800243" />
+    <state width="680" height="309" key="DebuggerActiveHint" timestamp="1586083390488">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="680" height="309" key="DebuggerActiveHint/0.0.1280.689@0.0.1280.689" timestamp="1586083390488" />
+    <state width="473" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1585718923409" />
+    <state x="421" y="104" key="FileChooserDialogImpl" timestamp="1585929917021">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="104" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1585929917021" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1586091560008">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586091560008" />
+    <state width="1877" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585730801805" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1586091560008">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586091560008" />
+    <state width="1877" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585730801805" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1586091560008">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586091560008" />
+    <state width="1877" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585730801805" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1586091560008">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586091560008" />
+    <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585730801805" />
+    <state width="1237" height="183" key="GridCell.Tab.1.bottom" timestamp="1586091560006">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="183" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586091560006" />
+    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585730801805" />
+    <state width="1237" height="183" key="GridCell.Tab.1.center" timestamp="1586091560005">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="183" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1586091560005" />
+    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585730801805" />
+    <state width="1237" height="183" key="GridCell.Tab.1.left" timestamp="1586091560005">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="183" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1586091560005" />
+    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585730801805" />
+    <state width="1237" height="183" key="GridCell.Tab.1.right" timestamp="1586091560005">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="183" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1586091560005" />
+    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585730801805" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1585737184048">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585737184048" />
+    <state x="197" y="85" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586085993967">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="197" y="85" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.689@0.0.1280.689" timestamp="1586085993967" />
+    <state x="777" y="175" width="821" height="450" key="search.everywhere.popup" timestamp="1586083054849">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="777" y="175" width="821" height="450" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1586083054849" />
+    <state x="1165" y="264" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585810745833" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/config/sysconf.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/config/sysconf.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/web/service/user_service.go</url>
+          <line>21</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/web/repositories/user_repositories.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/utils/jwtHelper/jwt.go</url>
+          <line>50</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="DlvErrorBreakpoint" />
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="string(jsonBook)" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

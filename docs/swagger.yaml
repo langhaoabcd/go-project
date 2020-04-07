@@ -1,0 +1,111 @@
+basePath: /api
+definitions:
+  dtos.UserInfo:
+    properties:
+      token:
+        type: string
+      userId:
+        type: string
+      username:
+        type: string
+    type: object
+  models.Result:
+    properties:
+      code:
+        type: integer
+      data:
+        type: object
+      msg:
+        type: string
+    type: object
+info:
+  contact:
+    email: 1198754948@qq.com
+    name: hzh
+    url: http://cube.newtouch.com
+  description: Go-Iris-Gorm示例项目
+  license: {}
+  title: Golang Restful API v1.0
+  version: "1.0"
+paths:
+  /sys/diy:
+    get:
+      consumes:
+      - application/json
+      description: 测试参数错误400和内部错误500
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Result'
+      summary: 试验
+      tags:
+      - Sys
+  /sys/login:
+    post:
+      consumes:
+      - application/json
+      description: 系统登录
+      parameters:
+      - description: 账号
+        in: query
+        name: account
+        required: true
+        type: string
+      - description: 密码
+        in: query
+        name: password
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/dtos.UserInfo'
+      summary: 系统登录
+      tags:
+      - Sys
+  /user/add:
+    post:
+      consumes:
+      - application/json
+      description: 新增
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Result'
+      security:
+      - ApiKeyAuth: []
+      summary: 新增
+      tags:
+      - User
+  /user/test:
+    get:
+      consumes:
+      - application/json
+      description: 测试
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/models.Result'
+      security:
+      - ApiKeyAuth: []
+      summary: 测试
+      tags:
+      - User
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

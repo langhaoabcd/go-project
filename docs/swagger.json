@@ -1,0 +1,172 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Go-Iris-Gorm示例项目",
+        "title": "Golang Restful API v1.0",
+        "contact": {
+            "name": "hzh",
+            "url": "http://cube.newtouch.com",
+            "email": "1198754948@qq.com"
+        },
+        "license": {},
+        "version": "1.0"
+    },
+    "basePath": "/api",
+    "paths": {
+        "/sys/diy": {
+            "get": {
+                "description": "测试参数错误400和内部错误500",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Sys"
+                ],
+                "summary": "试验",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/models.Result"
+                        }
+                    }
+                }
+            }
+        },
+        "/sys/login": {
+            "post": {
+                "description": "系统登录",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Sys"
+                ],
+                "summary": "系统登录",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "账号",
+                        "name": "account",
+                        "in": "query",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "description": "密码",
+                        "name": "password",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/dtos.UserInfo"
+                        }
+                    }
+                }
+            }
+        },
+        "/user/add": {
+            "post": {
+                "security": [
+                    {
+                        "ApiKeyAuth": []
+                    }
+                ],
+                "description": "新增",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "User"
+                ],
+                "summary": "新增",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/models.Result"
+                        }
+                    }
+                }
+            }
+        },
+        "/user/test": {
+            "get": {
+                "security": [
+                    {
+                        "ApiKeyAuth": []
+                    }
+                ],
+                "description": "测试",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "User"
+                ],
+                "summary": "测试",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/models.Result"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "dtos.UserInfo": {
+            "type": "object",
+            "properties": {
+                "token": {
+                    "type": "string"
+                },
+                "userId": {
+                    "type": "string"
+                },
+                "username": {
+                    "type": "string"
+                }
+            }
+        },
+        "models.Result": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "integer"
+                },
+                "data": {
+                    "type": "object"
+                },
+                "msg": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "securityDefinitions": {
+        "ApiKeyAuth": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    }
+}
